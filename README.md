@@ -11,4 +11,4 @@
 
 ## Magic involved
 
-The trick to the full screen background per tile is due to wonderful css property 'background attachment: 'fixed' this allows the background image or color to extend over selected rows/columns. I know crazy right 😝
+The trick to the full screen background per tile is due to wonderful css property `background attachment: 'fixed'` this allows the background image or color to extend over selected rows/columns. I know crazy right 😝
