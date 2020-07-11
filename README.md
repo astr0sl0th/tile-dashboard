@@ -3,8 +3,6 @@
 
 ### React Dashboard Tiles using [CSSGrid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) to accomplish a windows tile like effect. View the [demo](https://dashboard-tiles.netlify.app/)
 
-[Demo](https://css-grid-tile-react-dashboard.netlify.app/)
-
 ## Features
 
 - Custom backgrounds for each grid item both color and image
