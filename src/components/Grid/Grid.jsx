@@ -2,8 +2,19 @@ import React from 'react';
 
 import './Grid.css';
 
-const Grid = ({ children }) => {
-  return <div className="gridContainer">{children}</div>;
+const Grid = ({
+  children,
+  gridColumns = 'repeat(4, 1fr)',
+  gridGap = '10px',
+}) => {
+  return (
+    <div
+      className="gridContainer"
+      style={{ gridTemplateColumns: gridColumns, gridGap }}
+    >
+      {children}
+    </div>
+  );
 };
 
 export default Grid;

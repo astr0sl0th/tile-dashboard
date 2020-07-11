@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
+/* A very basic reset 😅 */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+/* end... */
 
 body {
   background: #333;

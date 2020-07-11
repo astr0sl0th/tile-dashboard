@@ -1,13 +1,16 @@
-# A configurable dashboard with a tile like feel
+# React Dashboard Tiles
+[![Netlify Status](https://api.netlify.com/api/v1/badges/362a6601-b7e7-4675-8728-3f0bb36c6498/deploy-status)](https://app.netlify.com/sites/dashboard-tiles/deploys)
+
+### React Dashboard Tiles using [CSSGrid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) to accomplish a windows tile like effect. View the [demo](https://dashboard-tiles.netlify.app/)
 
 [Demo](https://css-grid-tile-react-dashboard.netlify.app/)
 
 ## Features
 
-- Uses [CSSGrid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
-- Custom backgrounds for each tile/grid item
+- Custom backgrounds for each grid item both color and image
 - Set the amount of grid columns
-- Point free style react because f***k all you OOP lot learn math ffs!
+- Define the how much each tile should take up
+- Set the grid gap
 
 ## Magic involved
 

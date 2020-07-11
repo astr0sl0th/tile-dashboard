@@ -66,10 +66,12 @@ const App = () => {
     <Grid>
       {dashboard.map(({ title, info, Icon, gridColumn }, index) =>
         <GridItem key={index} gridColumn={gridColumn}>
+          {/* custom demo logic */}
           <IconContext.Provider value={{ size: 55, }}>
             {title ? <h1>{title}</h1> : <Icon />}
             <h2>{info}</h2>
           </IconContext.Provider>
+          {/* end */}
         </GridItem>)}
     </Grid>
   );

@@ -13,7 +13,9 @@ const GridItem = ({
       className="gridItem"
       style={{
         gridColumn: gridColumn,
+        // if no image use color
         background: titleBgImg ? titleBgImg : tileBg,
+        // needs inlining due too how the CSS props work
         backgroundSize: 'cover',
         backgroundAttachment: 'fixed',
       }}
